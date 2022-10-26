@@ -11,16 +11,16 @@ export default {
         text: '指南',
         items: [
           { text: '概览', link: '/' },
-          { text: 'New Recommendations', link: '/recommendations' },
-          { text: 'Migration Build', link: '/migration-build' },
+          { text: '新的推荐', link: '/recommendations' },
+          { text: '用于迁移的构建版本', link: '/migration-build' },
           {
-            text: 'Breaking Changes',
+            text: '不兼容的改动',
             link: '/breaking-changes/'
           }
         ]
       },
       {
-        text: 'Global API',
+        text: '全局 API',
         items: [
           {
             text: 'Global API Application Instance',

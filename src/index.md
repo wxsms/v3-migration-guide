@@ -98,7 +98,7 @@
 - [Teleport](https://cn.vuejs.org/guide/built-ins/teleport.html)
 - [Fragments](/new/fragments.html)
 - [Emits 组件选项](https://cn.vuejs.org/api/options-state.html#emits)<span class="note">\*\*</span>
-- [来自 `@vue/runtime-core` 的 `createRenderer` API](https://cn.vuejs.org/api/custom-renderer.html) to create custom renderers
+- [来自 `@vue/runtime-core` 的 `createRenderer` API](https://cn.vuejs.org/api/custom-renderer.html) 以创建自定义渲染器
 - [SFC 状态驱动的 CSS 变量 (`<style>` 中的 `v-bind`)](https://cn.vuejs.org/api/sfc-css-features.html#v-bind-in-css)<span class="note">\*</span>
 - [SFC `<style scoped>` 现在可以包含全局规则或针对插槽内容的规则](https://github.com/vuejs/rfcs/blob/master/active-rfcs/0023-scoped-styles-changes.md)
 - [Suspense](https://vuejs.org/guide/built-ins/suspense.html) <sup class="warning">experimental</sup>
