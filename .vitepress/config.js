@@ -1,16 +1,16 @@
 export default {
-  title: 'Vue 3 Migration Guide',
-  description: 'Guide on migrating from Vue 2 to Vue 3',
+  title: 'Vue 3 迁移指南',
+  description: 'Vue 2 至 Vue 3 的迁移指南',
   srcDir: 'src',
 
   themeConfig: {
-    nav: [{ text: 'Vue 3 Docs', link: 'https://vuejs.org' }],
+    nav: [{ text: 'Vue 3 文档', link: 'https://cn.vuejs.org' }],
 
     sidebar: [
       {
-        text: 'Guide',
+        text: '指南',
         items: [
-          { text: 'Overview', link: '/' },
+          { text: '概览', link: '/' },
           { text: 'New Recommendations', link: '/recommendations' },
           { text: 'Migration Build', link: '/migration-build' },
           {

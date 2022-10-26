@@ -1,6 +1,6 @@
-# Vue 3 Migration Guide
+# Vue 3 迁移指南
 
-This guide is primarily for users with prior Vue 2 experience who want to learn about the changes between Vue 2 and Vue 3. **This is not something you have to read from top to bottom before trying out Vue 3.** The recommended way to learn Vue 3 is by reading the [new documentation](https://vuejs.org).
+本指南主要是为有 Vue 2 经验的、希望了解 Vue 3 的新功能和更改的用户而提供的。**在试用 Vue 3 之前，你不必完整阅读这些内容**。推荐通过阅读[新的文档](https://cn.vuejs.org)来学习 Vue 3。
 
 <!-- VueMastery Start -->
 <style>
@@ -89,31 +89,31 @@ This guide is primarily for users with prior Vue 2 experience who want to learn 
 }
 </style>
 
-## Notable New Features
+## 值得注意的新功能
 
-Some of the new features to keep an eye on in Vue 3 include:
+这里有某些需要注意的 Vue 3 新功能，包括：
 
-- [Composition API](https://vuejs.org/guide/extras/composition-api-faq.html)<span class="note">\*</span>
-- [SFC Composition API Syntax Sugar (`<script setup>`)](https://vuejs.org/api/sfc-script-setup.html)<span class="note">\*</span>
-- [Teleport](https://vuejs.org/guide/built-ins/teleport.html)
+- [组合式 API](https://cn.vuejs.org/guide/extras/composition-api-faq.html)<span class="note">\*</span>
+- [SFC 组合式 API 语法糖 (`<script setup>`)](https://cn.vuejs.org/api/sfc-script-setup.html)<span class="note">\*</span>
+- [Teleport](https://cn.vuejs.org/guide/built-ins/teleport.html)
 - [Fragments](/new/fragments.html)
-- [Emits Component Option](https://vuejs.org/api/options-state.html#emits)<span class="note">\*\*</span>
-- [`createRenderer` API from `@vue/runtime-core`](https://vuejs.org/api/custom-renderer.html) to create custom renderers
-- [SFC State-driven CSS Variables (`v-bind` in `<style>`)](https://vuejs.org/api/sfc-css-features.html#v-bind-in-css)<span class="note">\*</span>
-- [SFC `<style scoped>` can now include global rules or rules that target only slotted content](https://github.com/vuejs/rfcs/blob/master/active-rfcs/0023-scoped-styles-changes.md)
+- [Emits 组件选项](https://cn.vuejs.org/api/options-state.html#emits)<span class="note">\*\*</span>
+- [来自 `@vue/runtime-core` 的 `createRenderer` API](https://cn.vuejs.org/api/custom-renderer.html) to create custom renderers
+- [SFC 状态驱动的 CSS 变量 (`<style>` 中的 `v-bind`)](https://cn.vuejs.org/api/sfc-css-features.html#v-bind-in-css)<span class="note">\*</span>
+- [SFC `<style scoped>` 现在可以包含全局规则或针对插槽内容的规则](https://github.com/vuejs/rfcs/blob/master/active-rfcs/0023-scoped-styles-changes.md)
 - [Suspense](https://vuejs.org/guide/built-ins/suspense.html) <sup class="warning">experimental</sup>
 
-<sub class="note"><b>\*</b> Now also supported in <a href="https://blog.vuejs.org/posts/vue-2-7-naruto.html" target="_blank">Vue 2.7</a></sub><br>
-<sub class="note"><b>\*\*</b> Supported in Vue 2.7, but only for type inference</sub>
+<sub class="note"><b>\*</b> 现在也在 <a href="https://blog.vuejs.org/posts/vue-2-7-naruto.html" target="_blank">Vue 2.7</a> 中可用</sub> <br>
+<sub class="note"><b>\*\*</b> Vue 2.7 中支持，但仅限于类型推断</sub>
 
-## Breaking Changes
+## 不兼容的改动
 
-Breaking changes between Vue 2 and Vue 3 are listed [here](/breaking-changes/).
+Vue 2 和 Vue 3 之间的不兼容改动[在此](/breaking-changes/)列出。
 
-## New Framework-level Recommendations
+## 新的推荐框架
 
-New framework-level recommendations are listed [here](/recommendations).
+新的推荐框架[在此](/recommendations)列出。
 
-## Migration Build
+## 用于迁移的构建版本
 
-If you have an existing Vue 2 project or library that you intend to upgrade to Vue 3, we provide a build of Vue 3 that offers Vue 2 compatible APIs. Check out the [Migration Build](./migration-build.html) page for more details.
+如果你想要将已存在的 Vue 2 项目或库希望升级到 Vue 3，我们提供了一个与 Vue 2 API 兼容的 Vue 3 构建版本。详见[用于迁移的构建版本](./migration-build.html)。
